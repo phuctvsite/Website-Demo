@@ -1,0 +1,172 @@
+        body {
+            margin: 0;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        
+        p {
+            text-align: justify;
+        }
+        /*Layout bên ngoài*/
+        
+        .row {
+            float: left;
+            width: 100%;
+        }
+        
+        .header {
+            background: url(../image/tooplate_body.jpg);
+            min-height: 300px;
+        }
+        
+        .header h1 {
+            float: left;
+            color: #000;
+            font-weight: bolder;
+            font-size: 60px;
+            padding-left: 200px;
+            margin-top: 10px;
+        }
+        
+        .menu {
+            width: 625px;
+            height: 50px;
+            float: right;
+            margin-top: 30px;
+            margin-right: 230px;
+            background: url(../image/tooplate_menu.png);
+        }
+        
+        .menu li {
+            display: inline;
+            list-style-type: none;
+            background-image: url(../image/tooplate_menu_divider.png);
+            background-position: center right;
+            background-repeat: no-repeat;
+        }
+        
+        .menu li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            padding: 0 30px;
+            text-align: center;
+        }
+        
+        .menu li a:hover {
+            color: #fff;
+        }
+        
+        .content {
+            background-color: #c9c0ae;
+            height: 1350px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .footer {
+            background-color: #a09881;
+            min-height: 50px;
+            color: #000;
+        }
+        
+        .footer p {
+            text-align: center;
+        }
+        
+        .footer span {
+            font-weight: bold;
+        }
+        /*Layout nổi bên trong*/
+        
+        .container {
+            margin: 0 auto;
+            width: 70%;
+            position: relative;
+            z-index: 2;
+            top: -220px;
+        }
+        
+        .header1 {
+            background-image: url(../image/tooplate_middle_subpage.png);
+            background-size: cover;
+            min-height: 300px;
+            width: 100%;
+        }
+        
+        .boxheader1 {
+            padding: 15px 100px;
+        }
+        
+        .boxheader1 h1 {
+            color: black;
+            font-weight: bolder;
+            font-size: 30pt;
+        }
+        
+        .boxheader1 p {
+            color: black;
+            font-weight: bold;
+            font-size: 12pt;
+        }
+        /*Content Layout bên trong */
+        
+        .LeftContent1 {
+            float: left;
+            width: 65%;
+            padding-top: 15px;
+        }
+        
+        .boxtin {
+            padding-top: 20px;
+        }
+        
+        .boxtin img {
+            border: 2px solid black;
+            margin: 5px 0px;
+            padding: 3px;
+        }
+        
+        .boxmore {
+            background: url(../image/tooplate_btn.png);
+            width: 100px;
+            height: 30px;
+        }
+        
+        .boxmore p {
+            padding: 5px 30px;
+            font-weight: bold;
+        }
+        
+        .RightContent1 {
+            float: left;
+            width: 30%;
+            padding: 15px 0 0 30px;
+        }
+        
+        .RightList ul {
+            padding-left: 0;
+        }
+        
+        .RightList ul li {
+            list-style-type: none;
+            background-image: url(../image/tooplate_list.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            padding-left: 30px;
+            font-weight: bold;
+        }
+        
+        .RightContent1 h2 {
+            font-size: 20pt;
+        }
+        
+        .RightContent1 h3 {
+            font-size: 12pt;
+            color: darkgreen;
+        }
+        
+        .RightContent1 h6 {
+            color: darkolivegreen;
+        }
